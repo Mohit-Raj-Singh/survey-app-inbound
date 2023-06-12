@@ -11,6 +11,7 @@
   background-color: transparent;
   border-color: rgb(36, 12, 83);
   border-radius: 15px;
+  margin-bottom: 10px;
 }
 .questionHeading {
   color: brown;
@@ -84,9 +85,17 @@
   font-size: 20px;
 }
 .thanksHeading {
+  border: 1px solid;
+  width: 50%;
+  height: 500px;
   font-size: 30px;
   color: rgb(180, 13, 13);
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.lastPara{
+  color: rgb(16, 11, 34);
+  font-size: 19px;
+  font-weight: bold;
 }
 @media all and (min-width: 651px) and (max-width: 1071px) {
   .questionBox {

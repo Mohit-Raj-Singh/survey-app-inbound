@@ -194,15 +194,15 @@ const SurveyApp = () => {
       )}
       {renderQuestion()}
       {surveyCompleted && (
-        <div>
+        <div className="welcomeScreen">
           <h2>Confirm Submit</h2>
-          <p>Are you sure you want to submit the survey?</p>
-          <button onClick={handleConfirmSubmit}>Yes</button>
+          <p className="lastPara">Are you sure you want to submit the survey?</p>
+          <button className="startButton" onClick={handleConfirmSubmit}>Yes</button>
         </div>
       )}
       {showThankYouScreen && (
-        <div>
-          <h2 className="thanksHeading">Thank you for your time!</h2>
+        <div className="thanksHeading">
+          <h2>Thank you for your time!</h2>
         </div>
       )}
     </div>
