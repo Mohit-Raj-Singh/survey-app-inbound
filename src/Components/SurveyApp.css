@@ -1,0 +1,111 @@
+.welcomeScreen {
+  margin: auto;
+}
+.welcomeScreen h2 {
+  color: rgb(36, 12, 83);
+}
+.startButton {
+  padding: 10px 35px;
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: transparent;
+  border-color: rgb(36, 12, 83);
+  border-radius: 15px;
+}
+.questionHeading {
+  color: brown;
+  font-size: 35px;
+}
+.question {
+  color: crimson;
+  font-size: 30px;
+  font-weight: bold;
+}
+.ratingButton {
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: rgb(49, 29, 29);
+  border-color: transparent;
+  color: white;
+  font-size: 19px;
+  border-radius: 10px;
+}
+.nextButton {
+  padding: 15px 40px;
+  font-size: 20px;
+  margin: 5px;
+  margin-top: 20px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-color: white;
+  font-weight: bold;
+}
+.questionBox {
+  /* border: 1px solid red; */
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border-radius: 20px;
+}
+.previousButton {
+  padding: 15px 21px;
+  font-size: 20px;
+  margin: 5px;
+  margin-top: 20px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-color: white;
+  font-weight: bold;
+}
+.skipButton {
+  padding: 15px 43px;
+  font-size: 20px;
+  margin: 5px;
+  margin-top: 20px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-color: white;
+  font-weight: bold;
+}
+.feedbackText {
+  /* width: 300px; */
+  width: 50%;
+  height: 100px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.thanksHeading {
+  font-size: 30px;
+  color: rgb(180, 13, 13);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+@media all and (min-width: 651px) and (max-width: 1071px) {
+  .questionBox {
+    width: 80%;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 650px) {
+  .questionBox {
+    width: 75%;
+  }
+  .question {
+    font-size: 25px;
+  }
+  .ratingButton {
+    padding: 10px 10px;
+    margin: 3px;
+  }
+  .feedbackText {
+    width: 85%;
+  }
+}
