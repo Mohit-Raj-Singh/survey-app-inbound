@@ -2,7 +2,18 @@
   margin: auto;
 }
 .welcomeScreen h2 {
-  color: rgb(36, 12, 83);
+  color: #2d3748;
+}
+button {
+  background-color: #fff;
+  border-color: #ddd;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 20px 5px 5px;
+  padding: 15px 40px;
+  border-style: solid;
+  cursor: pointer;
 }
 .startButton {
   padding: 10px 35px;
@@ -14,18 +25,18 @@
   margin-bottom: 10px;
 }
 .questionHeading {
-  color: brown;
+  color: #319795;
   font-size: 35px;
 }
 .question {
-  color: crimson;
+  color: #2d3748;
   font-size: 30px;
   font-weight: bold;
 }
 .ratingButton {
   padding: 10px 15px;
   margin: 5px;
-  background-color: rgb(49, 29, 29);
+  background-color: #319795;
   border-color: transparent;
   color: white;
   font-size: 19px;
@@ -38,20 +49,17 @@
   margin-top: 20px;
   border-radius: 15px;
   background-color: white;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
-    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-  border-color: white;
+  color: #319795;
+  border-color: #319795;
   font-weight: bold;
 }
 .questionBox {
-  /* border: 1px solid red; */
-  width: 50%;
-  margin: auto;
-  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 5px 4px -3px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(0, 0, 0, 0.1);
+  margin: 30px auto auto;
   padding: 20px;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-  border-radius: 20px;
+  width: 50%;
 }
 .previousButton {
   padding: 15px 21px;
@@ -60,9 +68,6 @@
   margin-top: 20px;
   border-radius: 15px;
   background-color: white;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
-    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-  border-color: white;
   font-weight: bold;
 }
 .skipButton {
@@ -72,13 +77,11 @@
   margin-top: 20px;
   border-radius: 15px;
   background-color: white;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
-    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-  border-color: white;
+  border-color: rgb(181, 21, 21);
+  color: rgb(181, 21, 21);
   font-weight: bold;
 }
 .feedbackText {
-  /* width: 300px; */
   width: 50%;
   height: 100px;
   border-radius: 10px;
@@ -92,7 +95,7 @@
   color: rgb(180, 13, 13);
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
-.lastPara{
+.lastPara {
   color: rgb(16, 11, 34);
   font-size: 19px;
   font-weight: bold;
